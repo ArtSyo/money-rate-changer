@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="contact-page">
+    <div className="about">
       <h2>О нас.</h2>
       <p>
         Используя данный сайт, Вы можете быстро узнать текуший курс популярных

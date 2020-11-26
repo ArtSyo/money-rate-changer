@@ -1,0 +1,14 @@
+.about {
+    margin: 20px;
+    padding-bottom: 300px;
+}
+
+.about p{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.about h2{
+    font-size: 40px;
+    margin: 20px
+}

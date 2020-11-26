@@ -27,22 +27,22 @@ class Calc extends React.Component {
       <div className="calculator">
         <h3>Калькулятор обмена</h3>
         <div className="block">
-          <div>Я хочу...</div>
+          <h4>Я хочу...</h4>
           <div>
             <form onSubmit={this.calcSubmitHandler}>
-              <input type="number" defaultValue="150" name="count-currency" />
-              <select name="type-currency" id="">
+              <input className='input-text' type="number" defaultValue="150" name="count-currency" />
+              <select className='input-option' name="type-currency" id="">
                 {Object.keys(this.props.rate).map((keyName, idx) => (
                   <option key={keyName} value={keyName}>
                     {keyName}
                   </option>
                 ))}
               </select>
-              <input type="submit" defaultValue="calc" />
+              <input className="input-btn" type="submit" defaultValue="calc" />
             </form>
           </div>
           <div>
-            <h4>Результат</h4>
+            <h5>Результат</h5>
             <ul className="calc-res">
               <li>EUR {this.state.result}</li>
             </ul>

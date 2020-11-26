@@ -4,7 +4,7 @@ import "./Contacts.css";
 const Contacts = () => {
   return (
     <div className="contact-page">
-      <h3>Вы всегда можете связаться с нами:</h3>
+      <h2>Вы всегда можете связаться с нами:</h2>
       <ul>
           <li>Эл. почта: example@mail.com</li>
           <li>Телефон: +799988877665</li>

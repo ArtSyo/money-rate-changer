@@ -1,0 +1,14 @@
+.contact-page {
+    margin: 20px;
+    padding-bottom: 300px;
+}
+
+.contact-page li{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.contact-page h2{
+    font-size: 40px;
+    margin: 20px
+}

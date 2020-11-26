@@ -6,3 +6,58 @@
     margin: 10px 0;
   }
   
+  .calculator .input-text {
+    background-color: #ddd;
+    display: inline;
+    margin: auto;
+    width: 40%;
+    height: 36px;
+    font-size: 30px;
+    margin: 30px 0;
+    padding: 0;
+  }
+
+  .calculator .input-option {
+    background-color: #ddd;
+
+    background-color: #ddd;
+    display: inline-block;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    font-size: 17px;
+    margin: 10px 0 20px;
+    padding-top: 10px;
+  } 
+
+  .calculator .input-btn {  
+    background-color: #ddd;
+    display: inline-block;
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    margin: 10px 0 20px;
+    padding-top: 10px;
+    
+  }
+
+  .calculator .input-btn:hover {
+    background-color: #679b9b;
+  }
+
+  .calculator h5 {
+    font-size: 25px;
+  }
+
+  .calculator li {
+    font-size: 40px;
+  }
+
+  .calculator h4{
+    font-size: 40px;
+  }
+
+  .calculator {
+    text-align: center;
+  }
