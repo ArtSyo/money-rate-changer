@@ -1,17 +1,25 @@
-header{background: #679b9b;}
+header {
+    background: #679b9b;
 
-.top-bar {
-  padding: 0px;
-  font-size: 12px;
-  border-bottom: .4px solid #637373;
-  min-height: 40px;
-}
-
-.main-header {
-  padding: 20px 0 25px;
-}
-
-.site-title {
-  color: #fff;
-}
-
+  }
+  
+  .top-bar {
+    padding: 0px;
+    font-size: 12px;
+    border-bottom: 0.4px solid #637373;
+    min-height: 40px;
+  }
+  
+  .main-header {
+    padding: 20px 0 25px;
+  }
+  
+  .site-title {
+    color: #fff;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+      font-size: 80px;
+  }
+  

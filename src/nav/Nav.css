@@ -1,18 +1,28 @@
 .header-nav{
     background: #637373;
+    text-align: center;
   }
   
   .header-nav li {
     display: inline-block;
     padding: 15px 25px 15px;
+    font-size: 20px;    
   }
   
   .header-nav li a, .header-nav li a:visited {
     color: #fff;
     text-decoration: none;
     display: block;
+    
   }
   
   .header-nav li:hover {
     background: #679b9b;
+  }
+
+  @media (max-width: 600px) {
+    .header-nav li {
+      font-size: 50px;  
+      text-align: center;
+    }
   }

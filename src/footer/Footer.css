@@ -1,8 +1,8 @@
 .footer .footer-bottom {
     background: #637373;
     padding-top: 30px;
-    padding-bottom: 150px;
-    
+    padding-bottom: 170px;
+    margin: auto;
   }
   
   .footer .footer-bottom ul li a {
@@ -13,12 +13,14 @@
     display: block;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px 40px;
   }
   
   .footer-title {
     color: #fff;
     font-size: 1.4rem;
     margin-bottom: 20px;
+    padding: 5px 50px;
   }
   
   .footer-title a{
@@ -29,5 +31,17 @@
 
   .footer-rights{
     color: #fff;
+    padding: 5px 50px;
+
+  }
+
+  @media (max-width: 600px) {
+    .footer .footer-bottom ul li a {
+      display: inline-block;
+    }
+
+    .footer {
+      width: 100%;
+    }
   }
   
